@@ -1,7 +1,11 @@
 public class Main {
     public static void main(String[] args) {
-        Shape kor = new Circle(2);
-        System.out.println("A kerulete: " + kor.getPerimeter());
-        System.out.println("A terulete: " + kor.getArea());
+        Shape myShape = new Circle(3);
+        System.out.println("A kor kerülete: " + myShape.getPerimeter());
+        System.out.println("A kor területe: " + myShape.getArea());
+
+        Shape yourShape = new Square(46);
+            System.out.println("A negyzet kerülete: " + yourShape.getPerimeter());
+            System.out.println("A negyzet területe: " + yourShape.getArea());
     }
 }
